@@ -4,6 +4,12 @@
  */
 
 /**
+* Import Tailwind CSS
+ */
+@tailwind base;
+@tailwind components;
+
+/**
  * Import variables
  */
 
@@ -24,6 +30,11 @@
  */
 
 @import "layouts/home";
+
+/**
+* Import Tailwind CSS
+ */
+@tailwind utilities
 
 /**
  * Do NOT include anything else in this file!
