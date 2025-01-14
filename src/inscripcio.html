@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="ca">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+  <title>UOC Boilerplate</title>
+</head>
+
+<body>
+  <include src="header.html"></include>
+
+  <main>
+    <div class="container py-5 inscripcio d-flex align-items-center justify-content-center">
+      <div>
+        <h1 class="text-center py-5">Inscripció</h1>
+        <form action="" netlify>
+          <div class="mb-3">
+            <label for="name" class="form-label">Nom *</label>
+            <input type="text" class="form-control" id="name" aria-describedby="name" name="name" required>
+          </div>
+          <div class="mb-3">
+            <label for="emil" class="form-label">Correu Electronic *</label>
+            <input type="email" class="form-control" id="email" aria-describedby="email" name="email" required>
+          </div>
+          <div class="mb-3">
+            <label for="phone" class="form-label">Telèfon *</label>
+            <input type="phone" class="form-control" id="phone" aria-describedby="phone" name="phone" required>
+          </div>
+          <button type="submit" class="btn btn-primary mt-3">Submit</button>
+        </form>
+      </div>
+
+    </div>
+  </main>
+
+  <include src="footer.html"></include>
+
+  <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+</body>
+
+</html>
