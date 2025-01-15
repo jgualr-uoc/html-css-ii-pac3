@@ -12,7 +12,6 @@
 /**
  * Import variables
  */
-
 /**
  * Import npm dependencies
  * see: https://v2.parceljs.org/features/module-resolution/
@@ -25,6 +24,8 @@
  * Import layouts
  * It's a best practice to use a different partial for each page
  */
+
+ @import './defaults.scss';
 
 /**
 * Import Tailwind CSS
