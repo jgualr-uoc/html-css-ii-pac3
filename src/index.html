@@ -11,41 +11,48 @@
 
 <body>
   <include src="header.html"></include>
-
   <main>
     <div class="container mx-auto py-5">
-      <h1 class="">Participants</h1>
-      <div class="flex ">
+      <h1>Participants</h1>
+      <div class="flex flex-wrap justify-center space-x-6">
 
-        <!-- <div class="speaker card">
-          <img class="card-img-top" src="./assets/images/vidal.webp" alt="Marta Vidal">
-          <div class="card-body text-center">
-            <p class="card-title h5 fw-bold">Marta Vidal</p>
-            <p class="card-text">Enginyera en sistemes informàtics i consultora de seguretat amb més de 15 anys d'experiència.</p>
-          </div>
-        </div>
-        <div class="speaker card">
-          <img class="card-img-top" src="./assets/images/fargas.webp" alt="Pere Fargas">
-          <div class="card-body text-center">
-            <p class="card-title h5 fw-bold">Pere Fargas</p>
-            <p class="card-text">Investigador en ciberseguretat aplicada. Ponent en esdeveniments internacionals i col·laborador en programes de formació.</p>
-          </div>
-        </div>
-        <div class="speaker card">
-          <img class="card-img-top" src="./assets/images/marques.webp" alt="Anna Marqués">
-          <div class="card-body text-center">
-            <p class="card-title h5 fw-bold">Anna Marqués</p>
-            <p class="card-text">Responsable d'innovació tecnològica en seguretat informàtica. Creadora de solucions per empreses de nivell global.</p>
-          </div>
-        </div>
-        <div class="speaker card">
-          <img class="card-img-top" src="./assets/images/esteban.webp" alt="Marc Esteban">
-          <div class="card-body text-center">
-            <p class="card-title h5 fw-bold">Marc Esteban</p>
-            <p class="card-text">Consultor en anàlisi de riscos digitals. Especialista en seguretat per a startups tecnològiques.</p>
-          </div>
-        </div>
-      </div> -->
+        <include src="participant-card.html">
+          {
+          "name": "Dr. Joan Rovira",
+          "info": "Expert en criptografia i seguretat a la xarxa. Autor de diersos llibres sobre protecció de dades.",
+          "img": "rovira.webp"
+          }
+        </include>
+        <include src="participant-card.html">
+          {
+          "name": "Marta Vidal",
+          "info": "Enginyera en sistemes informàtics i consultora de seguretat amb més de 15 anys d'experiència.",
+          "img": "vidal.webp"
+          }
+        </include>
+        <include src="participant-card.html">
+          {
+          "name": "Pere Fargas",
+          "info": "Investigador en ciberseguretat aplicada. Ponent en esdeveniments internacionals i col·laborador en
+          programes de formació.",
+          "img": "fargas.webp"
+          }
+        </include>
+        <include src="participant-card.html">
+          {
+          "name": "Anna Marqués",
+          "info": "Responsable d'innovació tecnològica en seguretat informàtica. Creadora de solucions per empreses de
+          nivell global.",
+          "img": "marques.webp"
+          }
+        </include>
+        <include src="participant-card.html">
+          {
+          "name": "Marc Esteban",
+          "info": "Consultor en anàlisi de riscos digitals. Especialista en seguretat per a startups tecnològiques.",
+          "img": "esteban.webp"
+          }
+        </include>
   </main>
 
   <include src="footer.html"></include>
@@ -54,4 +61,3 @@
 </body>
 
 </html>
-</div>
